@@ -1,0 +1,6 @@
+div{
+    width: var(--sidebar-width);
+    padding-top: 10vh;
+    position: fixed;
+    height: calc(100vh - var(--navbar-height));
+}
