@@ -8,6 +8,7 @@ import { TourcardsComponent } from './tourcards/tourcards.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
 import { CardComponent } from './card/card.component';
 import { AlumnosComponent } from "./alumnos/alumnos.component";
+import { AlumnosModule } from './alumnos/alumnos.module';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import { AlumnosComponent } from "./alumnos/alumnos.component";
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
+        AlumnosModule
     ]
 })
 export class AppModule { }

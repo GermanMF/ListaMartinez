@@ -35,6 +35,7 @@ export class AlumnosComponent {
     this.alumnos.forEach(alumno => {
       if (alumno.matematicas < 10) {
         alumno.matematicas++;
+        console.log("llegada: "+alumno.matematicas)
       }
     });
   }

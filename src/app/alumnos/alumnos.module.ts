@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AlumnosComponent } from './alumnos.component';
+import { AppComponent } from '../app.component';
 
 
 
@@ -8,10 +9,10 @@ import { AlumnosComponent } from './alumnos.component';
   declarations: [
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
-    AlumnosComponent,
+    
   ]
 })
 export class AlumnosModule { }
