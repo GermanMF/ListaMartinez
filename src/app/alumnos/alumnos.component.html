@@ -41,16 +41,9 @@
             'bg-primary': getTotal(alumno.id) >= 9
           }"
         >
-          {{ getTotal(alumno.id) }}
+          {{ getTotal(alumno.id) | number: '1.0-2' }}
         </td>
       </tr>
-      <!-- <tr *ngFor="let usuario of usuarios" [ngClass]="usuario.isTop10 ? 'table-success' : ''">
-            <td> {{ usuario.id }} </td>
-            <td> {{ usuario.firstName + " " + usuario.lastName }} </td>
-            <td> {{ usuario.email }} </td>
-            <td> {{ usuario.age }} </td>
-            <td> <button (click)="alernarTop10()">Alternar top 10</button> </td>
-          </tr> -->
     </tbody>
   </table>
 <br/>
